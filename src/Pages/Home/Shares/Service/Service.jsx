@@ -14,7 +14,7 @@ const Service = () => {
   return (
     <div className='bg-gray-300 px-4 py-12'>
         <div className='flex items-center'>
-            <h1 className='text-2xl'>Service</h1>
+            <h1 className='text-2xl montenegrin'>Service</h1>
             <IoIosArrowRoundForward style={{ height: '30px', width: '100px' }} />
         </div>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-3 mt-3'>
