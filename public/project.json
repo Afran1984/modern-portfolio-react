@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "portfolio": "https://i.ibb.co.com/zWs7xTRv/1.png",
+    "title": "Full Stack React Developer",
+    "logo": "https://i.ibb.co.com/v4YNvKL8/18-Sep24-photoaidcom-cropped-removebg-preview.jpg",
+    "description": "Experienced in building scalable web applications using React.js, Node.js, and modern Tailwind CSS configurations."
+  },
+  {
+    "id": 2,
+    "portfolio": "https://i.ibb.co.com/bjCqgH1v/3.png",
+    "title": "Full Stack React Developer",
+    "logo": "https://i.ibb.co.com/v4YNvKL8/18-Sep24-photoaidcom-cropped-removebg-preview.jpg",
+    "description": "Experienced in building scalable web applications using React.js, Node.js, and modern Tailwind CSS configurations."
+  },
+  {
+    "id": 3,
+    "portfolio": "https://i.ibb.co.com/WvyF2fsF/2.png",
+    "title": "Full Stack React Developer",
+    "logo": "https://i.ibb.co.com/v4YNvKL8/18-Sep24-photoaidcom-cropped-removebg-preview.jpg",
+    "description": "Experienced in building scalable web applications using React.js, Node.js, and modern Tailwind CSS configurations."
+  },
+   {
+    "id": 4,
+    "portfolio": "https://i.ibb.co.com/WvyF2fsF/2.png",
+    "title": "Full Stack React Developer",
+    "logo": "https://i.ibb.co.com/v4YNvKL8/18-Sep24-photoaidcom-cropped-removebg-preview.jpg",
+    "description": "Experienced in building scalable web applications using React.js, Node.js, and modern Tailwind CSS configurations."
+  },
+   {
+    "id": 5,
+    "portfolio": "https://i.ibb.co.com/WvyF2fsF/2.png",
+    "title": "Full Stack React Developer",
+    "logo": "https://i.ibb.co.com/v4YNvKL8/18-Sep24-photoaidcom-cropped-removebg-preview.jpg",
+    "description": "Experienced in building scalable web applications using React.js, Node.js, and modern Tailwind CSS configurations."
+  },
+  {
+    "id": 5,
+    "portfolio": "https://i.ibb.co.com/WvyF2fsF/2.png",
+    "title": "Full Stack React Developer",
+    "logo": "https://i.ibb.co.com/v4YNvKL8/18-Sep24-photoaidcom-cropped-removebg-preview.jpg",
+    "description": "Experienced in building scalable web applications using React.js, Node.js, and modern Tailwind CSS configurations."
+  }
+  
+]
