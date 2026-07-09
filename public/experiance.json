@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1618401471353-b98aedd07871?w=500&auto=format&fit=crop&q=60",
+    "title": "Web Development",
+    "description": "Building responsive full-stack applications."
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&auto=format&fit=crop&q=60",
+    "title": "UI/UX Design",
+    "description": "Designing modern and clean user interfaces."
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&auto=format&fit=crop&q=60",
+    "title": "Database Management",
+    "description": "Structuring secure and scalable databases."
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=500&auto=format&fit=crop&q=60",
+    "title": "AI Integration",
+    "description": "Implementing machine learning models into web apps."
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=500&auto=format&fit=crop&q=60",
+    "title": "Project Management",
+    "description": "Leading tech teams and managing agile workflows."
+  }
+]
