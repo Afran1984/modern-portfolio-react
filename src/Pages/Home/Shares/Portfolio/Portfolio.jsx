@@ -20,7 +20,6 @@ const Portfolio = () => {
     axios.get('project.json')
     .then(res => {
       const data = res.data;
-      // console.log('Fetched project data:', data);
       setProject(data);
       setLoading(false);
     })
@@ -44,7 +43,6 @@ const Portfolio = () => {
           <h1 className='text-2xl montenegrin'>Projects</h1>
           <IoIosArrowRoundForward style={{ height: '30px', width: '100px' }} />
         </div>
-        {/* 🛠️ ৩ কলামের মেইন গ্রিড এবং কম গ্যাপ (gap-2) */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-2 mt-3">
         
         {project.map((items, index) => (
@@ -53,7 +51,6 @@ const Portfolio = () => {
             className="group relative h-full w-full overflow-hidden border border-gray-700 rounded-xl hover:border-orange-500 transition-all duration-500 cursor-pointer"
           >
             
-            {/* 🖼️ ইমেজ কন্টেইনার (এটিকে relative ও object-cover করায় ইমেজটি পুরো বড় দেখাবে) */}
             <div className="w-full h-full overflow-hidden transition-all duration-500 group-hover:scale-110">
               <img 
                 src={items.portfolio || "/logos/my-logo.png"} 
@@ -62,8 +59,6 @@ const Portfolio = () => {
               />
             </div>
 
-            {/* 📄 হোভার কন্টেন্ট (টাইটেল ও ডেসক্রিপশন) */}
-            {/* ইমেজের উপর লেখা স্পষ্ট দেখার জন্য ব্যাকগ্রাউন্ডে একটি ডার্ক গ্রেডিয়েন্ট (from-black) দেওয়া হয়েছে */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/70 to-transparent p-6 flex flex-col justify-end opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out transform translate-y-4 group-hover:translate-y-0">
               
               <h2 className="text-2xl font-bold text-white mb-1">

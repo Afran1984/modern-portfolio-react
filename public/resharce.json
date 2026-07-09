@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "portfolio": "https://i.ibb.co.com/Kz00mVH8/Researched-and-implemented-various-Machine-Learning-algorithms-such-as-Random-Forest-Decision-tree.png",
+    "date": "2025-02-15",
+    "pname": "Machine Learning Project",
+    "description": "Multidimensional Disease Prediction. Machine Learning & Data Science"
+  },
+  {
+    "id": 2,
+    "portfolio": "https://i.ibb.co.com/Y4Nxrdrf/Untitled-design.png",
+    "date": "2024-02-15",
+    "pname": "Deep Learning Project",
+    "description": "Multidimensional Disease Prediction. Machine Learning & Data Science"
+  },
+  {
+    "id": 3,
+    "portfolio": "https://i.ibb.co.com/23sywy0F/Untitled-design-1.png",
+    "date": "2025-09-15",
+    "pname": "Deep Learning Project",
+    "description": "Multidimensional Disease Prediction. Machine Learning & Data Science"
+  }
+]
