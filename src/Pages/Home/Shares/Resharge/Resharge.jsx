@@ -34,7 +34,7 @@ const Resharge = () => {
             {research && research.map((items, index) => (
                 <div 
                 key={index} 
-                className="max-w-2xl bg-[#1e2530] rounded-2xl overflow-hidden shadow-xl border border-gray-800 transition-all duration-300 hover:scale-[1.01] hover:shadow-2xl cursor-pointer p-5 font-sans"
+                className="max-w-2xl bg-[#1e2530] rounded-2xl overflow-hidden shadow-xl border border-gray-800 transition-all duration-300 hover:scale-[1.01] hover:shadow-2xl cursor-pointer p-5 montenegrin"
                 >
                 <div className="w-full rounded-xl overflow-hidden bg-white flex items-center justify-center relative">
                     <img 
@@ -52,7 +52,7 @@ const Resharge = () => {
                     <span>{items.pname}</span>
                     </div>
 
-                    <h2 className="mt-4 text-white text-2xl md:text-3xl font-bold leading-snug tracking-tight hover:text-blue-400 transition-colors duration-200">{items.description}</h2>
+                    <h2 className="mt-4 text-white text-2xl md:text-3xl montenegrin leading-snug tracking-tight hover:text-blue-400 transition-colors duration-200">{items.description}</h2>
                 </div>
                 </div>
             ))}

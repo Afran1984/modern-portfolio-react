@@ -33,7 +33,7 @@ const Portfolio = () => {
     return (
       <div className='min-h-screen bg-gray-900 flex flex-col items-center justify-center gap-4'>
         <div className='w-12 h-12 border-4 border-gray-700 border-t-orange-500 rounded-full animate-spin'></div>
-        <p className='text-gray-400 font-medium tracking-wide animate-pulse'>Loading</p>
+        <p className='text-gray-400 montenegrin tracking-wide animate-pulse'>Loading</p>
       </div>
     )
   }
@@ -48,7 +48,7 @@ const Portfolio = () => {
         {project.map((items, index) => (
           <div 
             key={index} 
-            className="group relative h-full w-full overflow-hidden border border-gray-700 rounded-xl hover:border-orange-500 transition-all duration-500 cursor-pointer"
+            className="group relative h-full w-full overflow-hidden border border-gray-700 rounded-xl hover:border-orange-500 transition-all duration-500 cursor-pointer montenegrin"
           >
             
             <div className="w-full h-full overflow-hidden transition-all duration-500 group-hover:scale-110">
@@ -61,11 +61,11 @@ const Portfolio = () => {
 
             <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/70 to-transparent p-6 flex flex-col justify-end opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out transform translate-y-4 group-hover:translate-y-0">
               
-              <h2 className="text-2xl font-bold text-white mb-1">
+              <h2 className="text-2xl montenegrin text-white mb-1">
                 {items.name}
               </h2>
               
-              <span className="text-sm font-semibold text-orange-400 block mb-2">
+              <span className="text-sm montenegrin text-orange-400 block mb-2">
                 {items.title}
               </span>
               

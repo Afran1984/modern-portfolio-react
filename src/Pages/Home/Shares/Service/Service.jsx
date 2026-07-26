@@ -12,35 +12,14 @@ import {
 
 const Service = () => {
   return (
-    <div className='bg-gray-300 px-4 py-12'>
+    <div className='bg-gray-300 px-4 py-12 montenegrin'>
         <div className='flex items-center'>
             <h1 className='text-2xl montenegrin'>Service</h1>
             <IoIosArrowRoundForward style={{ height: '30px', width: '100px' }} />
         </div>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-3 mt-3'>
         {/* 1st  */}
-            <Card size="sm" className="mx-auto w-full max-w-sm">
-                <CardHeader>
-                    <CardTitle>Small Card</CardTitle>
-                    <CardDescription>
-                    This card uses the small size variant.
-                    </CardDescription>
-                </CardHeader>
-                <CardContent>
-                    <p>
-                    The card component supports a size prop that can be set to
-                    &quot;sm&quot; for a more compact appearance.
-                    </p>
-                </CardContent>
-                <CardFooter>
-                    <Button variant="outline" size="sm" className="w-full">
-                    Action
-                    </Button>
-                </CardFooter>
-            </Card>
-
-            {/* 1st  */}
-            <Card size="sm" className="mx-auto w-full max-w-sm">
+            <Card size="sm" className="mx-auto w-full max-w-sm montenegrin">
                 <CardHeader>
                     <CardTitle>Small Card</CardTitle>
                     <CardDescription>
@@ -61,7 +40,7 @@ const Service = () => {
             </Card>
 
             {/* 2nd  */}
-            <Card size="sm" className="mx-auto w-full max-w-sm">
+            <Card size="sm" className="mx-auto w-full max-w-sm montenegrin">
                 <CardHeader>
                     <CardTitle>Small Card</CardTitle>
                     <CardDescription>
@@ -82,6 +61,27 @@ const Service = () => {
             </Card>
 
             {/* 3rd  */}
+            <Card size="sm" className="mx-auto w-full max-w-sm">
+                <CardHeader>
+                    <CardTitle>Small Card</CardTitle>
+                    <CardDescription>
+                    This card uses the small size variant.
+                    </CardDescription>
+                </CardHeader>
+                <CardContent>
+                    <p>
+                    The card component supports a size prop that can be set to
+                    &quot;sm&quot; for a more compact appearance.
+                    </p>
+                </CardContent>
+                <CardFooter>
+                    <Button variant="outline" size="sm" className="w-full">
+                    Action
+                    </Button>
+                </CardFooter>
+            </Card>
+
+            {/* 4th  */}
             <Card size="sm" className="mx-auto w-full max-w-sm">
                 <CardHeader>
                     <CardTitle>Small Card</CardTitle>
