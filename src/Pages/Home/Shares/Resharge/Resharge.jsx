@@ -24,13 +24,13 @@ const Resharge = () => {
 
   return (
     <div className='bg-gray-300 px-4 py-12'>
-        <div className='flex items-center'>
+        <div className='flex items-center mt-10'>
             <h1 className='text-2xl montenegrin'>Research</h1>
             <IoIosArrowRoundForward style={{ height: '30px', width: '100px' }} />
         </div>
 
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 justify-center mt-3">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 justify-center mt-10">
             {research && research.map((items, index) => (
                 <div 
                 key={index} 

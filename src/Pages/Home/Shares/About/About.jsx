@@ -4,14 +4,14 @@ import { IoIosArrowRoundForward } from 'react-icons/io'
 const About = () => {
   return (
     <div className='bg-[#9A918C] px-4 py-12'>
-        <div className='flex items-center'>
+        <div className='flex items-center mt-10'>
             <h1 className='text-2xl montenegrin'>About Me..</h1>
             <IoIosArrowRoundForward style={{ height: '30px', width: '100px' }} />
         </div>
         <p className='montenegrin text-black mt-4'>
             I am a passionate developer with experience in creating dynamic and responsive web applications. I have a strong foundation in JavaScript, React, and Node.js, and I am always eager to learn new technologies and improve my skills.
         </p>
-        <div className="min-h-screen text-black flex items-center justify-center relative">
+        <div className="min-h-screen text-black flex items-center justify-center relative mt-10">
             <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 
                 <div className="w-full flex justify-center">

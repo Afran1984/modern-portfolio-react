@@ -39,11 +39,11 @@ const Portfolio = () => {
   }
   return (
     <div className='bg-[#9A918C] px-4 py-12'>
-      <div className='flex items-center'>
+      <div className='flex items-center mt-10'>
           <h1 className='text-2xl montenegrin'>Projects</h1>
           <IoIosArrowRoundForward style={{ height: '30px', width: '100px' }} />
         </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-2 mt-3">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-2 mt-3 mt-10">
         
         {project.map((items, index) => (
           <div 
