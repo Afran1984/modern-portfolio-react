@@ -1,11 +1,13 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import TestimonialsForm from '../TestimonialsForm/TestimonialsForm';
+import { useNavigate } from 'react-router';
 
 
 const TestimonialsCard = () => {
     const [testimonials, setTestimonials] = useState([]);
     const [loading, setLoading] = useState(true);
+    const navigate = useNavigate();
 
     useEffect(() => {
         axios.get('testimonials.json')
@@ -20,6 +22,9 @@ const TestimonialsCard = () => {
             setLoading(false);
         })
      }, []);
+     const handleNavigation = () => {
+        navigate('/testimonialsform');
+      }
 
      if(loading) {
         return (
@@ -37,7 +42,7 @@ const TestimonialsCard = () => {
         Read what our customers say
       </h2>
       <span className="text-gray-400 text-sm md:text-base mb-12 text-center">
-        do you want Review <a href="TestimonialsForm" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-600 transition-colors duration-200">me?</a>
+        do you want Review <a onClick={handleNavigation} target="_blank" rel="noopener noreferrer" className="text-blue-400 underline hover:text-blue-600 transition-colors duration-200">me?</a>
       </span>
 
       {/* Grid Container */}

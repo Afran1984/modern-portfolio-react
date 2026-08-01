@@ -5,6 +5,7 @@ import Contact from '@/Pages/Home/Shares/Contact/Contact';
 import Portfolio from '@/Pages/Home/Shares/Portfolio/Portfolio';
 import Resharge from '@/Pages/Home/Shares/Resharge/Resharge';
 import Service from '@/Pages/Home/Shares/Service/Service';
+import TestimonialsForm from '@/Pages/Home/Shares/TestimonialsForm/TestimonialsForm';
 import { createBrowserRouter } from 'react-router'
 
 
@@ -41,6 +42,10 @@ export const router = createBrowserRouter([
         {
           path: "/contact",
           Component: Contact
+        },
+        {
+          path: "/testimonialsform",
+          Component: TestimonialsForm
         },
 
 
