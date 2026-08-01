@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Jonh Almeda",
+    "role": "CEO Company",
+    "quote": "Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla pharetra diam sit amet nisl.",
+    "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=400&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Frank Kinney",
+    "role": "Financial Director",
+    "quote": "Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla pharetra diam sit amet nisl.",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Stella Larson",
+    "role": "Secretary",
+    "quote": "Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla pharetra diam sit amet nisl.",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Paul Smith",
+    "role": "Sales Manager",
+    "quote": "Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla pharetra diam sit amet nisl.",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Paul Smith",
+    "role": "Sales Manager",
+    "quote": "Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla pharetra diam sit amet nisl.",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": 6,
+    "name": "mith",
+    "role": "Sales Manager",
+    "quote": "Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla pharetra diam sit amet nisl.",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80"
+  }
+]

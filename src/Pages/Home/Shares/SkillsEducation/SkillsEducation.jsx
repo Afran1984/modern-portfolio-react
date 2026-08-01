@@ -1,15 +1,5 @@
 import React from "react";
 import { FaBriefcase, FaGraduationCap } from "react-icons/fa";
-// import {
-//   SiHtml5,
-//   SiCss3,
-//   SiJavascript,
-//   SiPhp,
-//   SiNodedotjs,
-//   SiLaravel,
-//   SiMysql,
-//   SiBootstrap,
-// } from "react-icons/si";
 
 const SkillsEducation = () => {
   const skills = [

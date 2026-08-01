@@ -8,6 +8,7 @@ import About from '../Shares/About/About'
 import Contact from '../Shares/Contact/Contact'
 import SkillsEducation from '../Shares/SkillsEducation/SkillsEducation'
 import CustomCarsor from '@/components/CustomCarsor/CustomCarsor'
+import TestimonialsCard from '../Shares/TestimonialsCard/TestimonialsCard'
 
 
 
@@ -21,6 +22,7 @@ const Home = () => {
         <Resharge></Resharge>
         <About></About>
         <SkillsEducation></SkillsEducation>
+        <TestimonialsCard></TestimonialsCard>
         <Contact></Contact>
         <CustomCarsor></CustomCarsor>
       
