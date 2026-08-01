@@ -1,33 +1,26 @@
 [
-    {
-        "icon": "icon-1",
-        "title": "Web Development",
-        "img": "img/service-1.png",
-        "start": "I specialize in creating responsive and user-friendly web applications using modern technologies like React.js, Node.js, and Tailwind CSS.",
-        "description": "I specialize in creating responsive and user-friendly web applications using modern technologies like React.js, Node.js, and Tailwind CSS."
-
-    },
-    {
-        "icon": "icon-2",
-        "title": "Machine Learning",
-        "img": "img/service-2.png",
-        "start": "I have experience in implementing various Machine Learning algorithms such as Random Forest, Decision Tree, and Neural Networks to solve complex problems.",
-        "description": "I have experience in implementing various Machine Learning algorithms such as Random Forest, Decision Tree, and Neural Networks to solve complex problems."
-    
-    },
-    {
-        "icon": "icon-3",
-        "title": "Deep Learning",
-        "img": "img/service-3.png",
-        "start": "I have hands-on experience in building Deep Learning models using frameworks like TensorFlow and PyTorch for tasks such as image classification and natural language processing.",
-        "description": "I have hands-on experience in building Deep Learning models using frameworks like TensorFlow and PyTorch for tasks such as image classification and natural language processing."
-    
-    },
-    {
-        "icon": "icon-04",
-        "title": "Research and Development",
-        "img": "img/service-4.png",
-        "start": "I am passionate about staying up-to-date with the latest advancements in technology and contributing to research and development initiatives.",
-        "description": "I am passionate about staying up-to-date with the latest advancements in technology and contributing to research and development initiatives."
-    }
+  {
+    "id": 1,
+    "title": "Web Developent",
+    "icon": "Monitor",
+    "iconColor": "text-cyan-400"
+  },
+  {
+    "id": 2,
+    "title": "Machine Learning",
+    "icon": "PenTool",
+    "iconColor": "text-yellow-400"
+  },
+  {
+    "id": 3,
+    "title": "AI & Deep Learning",
+    "icon": "Smartphone",
+    "iconColor": "text-blue-400"
+  },
+  {
+    "id": 4,
+    "title": "Research & Implement",
+    "icon": "LineChart",
+    "iconColor": "text-purple-400"
+  }
 ]

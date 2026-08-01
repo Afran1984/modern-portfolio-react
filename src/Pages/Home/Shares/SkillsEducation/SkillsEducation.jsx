@@ -12,16 +12,19 @@ import { FaBriefcase, FaGraduationCap } from "react-icons/fa";
 // } from "react-icons/si";
 
 const SkillsEducation = () => {
-//   const skills = [
-//     { name: "HTML", icon: <SiHtml5 className="text-[#E34F26] text-5xl" /> },
-//     { name: "CSS", icon: <SiCss3 className="text-[#1572B6] text-5xl" /> },
-//     { name: "JS", icon: <SiJavascript className="text-[#F7DF1E] text-5xl rounded-sm" /> },
-//     { name: "PHP", icon: <SiPhp className="text-[#777BB4] text-5xl" /> },
-//     { name: "NODE JS", icon: <SiNodedotjs className="text-[#339933] text-5xl" /> },
-//     { name: "Laravel", icon: <SiLaravel className="text-[#FF2D20] text-5xl" /> },
-//     { name: "Mysql", icon: <SiMysql className="text-[#4479A1] text-5xl" /> },
-//     { name: "Bootstrap", icon: <SiBootstrap className="text-[#7952B3] text-5xl" /> },
-//   ];
+  const skills = [
+    { name: "HTML", icon: "https://i.ibb.co.com/kg6bykqH/pngegg-2.png" },
+    { name: "CSS", icon: "https://i.ibb.co.com/MxkwCWtF/pngegg-5.png" },
+    { name: "JS", icon: "https://i.ibb.co.com/Y71fKPsP/pngegg-6.png" },
+    { name: "PHP", icon: "https://i.ibb.co.com/dstN6W0r/pngegg-7.png" },
+    { name: "NODE JS", icon: "https://i.ibb.co.com/21srZSHv/pngegg-4.png" },
+    { name: "React", icon: "https://i.ibb.co.com/YBKCrLpn/pngegg-3.png" },
+    { name: "Mysql", icon: "https://i.ibb.co.com/FqWdV0WX/pngegg-8.png" },
+    { name: "Bootstrap", icon: "https://i.ibb.co.com/mFFWn5fP/pngegg-9.png" },
+    { name: "python", icon: "https://i.ibb.co.com/dwNzV7TT/pngegg-10.png" },
+    { name: "C", icon: "https://i.ibb.co.com/gM2FjZd2/pngegg-11.png" },
+    { name: "C++", icon: "https://i.ibb.co.com/BVw4VkFS/pngegg-12.png" },
+  ];
 
   const education = [
     {
@@ -63,16 +66,18 @@ const SkillsEducation = () => {
 
           {/* Icons Grid */}
           <div className="grid grid-cols-4 gap-y-8 gap-x-4 text-center">
-            {/* {skills?.map((skill, index) => ( */}
+            {skills?.map((skill, index) => (
               <div className="flex flex-col items-center justify-center gap-2 group">
-                <div className="p-2 transition-transform duration-300 group-hover:scale-110">
-                  {/* {skill?.icon} */}
-                </div>
+                <img
+                  src={skill?.icon}
+                  alt={skill?.name}
+                  className="w-12 h-12 object-contain transition-transform duration-300 group-hover:scale-110"
+                />
                 <span className="text-xs font-semibold text-gray-400 group-hover:text-white transition-colors">
-                  {/* {skill?.name} */}
+                  {skill?.name}
                 </span>
               </div>
-            {/* ))} */}
+             ))} 
           </div>
         </div>
 

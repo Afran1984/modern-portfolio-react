@@ -7,6 +7,7 @@ import Experiance from '../Shares/Experience/Experiance'
 import About from '../Shares/About/About'
 import Contact from '../Shares/Contact/Contact'
 import SkillsEducation from '../Shares/SkillsEducation/SkillsEducation'
+import CustomCarsor from '@/components/CustomCarsor/CustomCarsor'
 
 
 
@@ -21,6 +22,7 @@ const Home = () => {
         <About></About>
         <SkillsEducation></SkillsEducation>
         <Contact></Contact>
+        <CustomCarsor></CustomCarsor>
       
     </>
   )

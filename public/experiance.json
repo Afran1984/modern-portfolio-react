@@ -1,13 +1,13 @@
 [
   {
     "id": 1,
-    "image": "https://images.unsplash.com/photo-1618401471353-b98aedd07871?w=500&auto=format&fit=crop&q=60",
+    "image": "https://i.ibb.co.com/ymxdr783/web.png",
     "title": "Web Development",
     "description": "Building responsive full-stack applications."
   },
   {
     "id": 2,
-    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&auto=format&fit=crop&q=60",
+    "image": "https://i.ibb.co.com/DP0RDN5p/pngegg-1.png",
     "title": "UI/UX Design",
     "description": "Designing modern and clean user interfaces."
   },
