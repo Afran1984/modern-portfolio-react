@@ -20,7 +20,7 @@ const Resharge = () => {
         })
     }, []);
 
-    console.log('Research data:', research);
+    // console.log('Research data:', research);
 
   return (
     <div className='bg-gray-300 px-4 py-12'>

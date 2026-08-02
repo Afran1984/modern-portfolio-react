@@ -3,24 +3,81 @@
     "id": 1,
     "title": "Web Developent",
     "icon": "Monitor",
-    "iconColor": "text-cyan-400"
+    "iconColor": "text-cyan-400",
+    "img": "https://i.ibb.co.com/Kz00mVH8/Researched-and-implemented-various-Machine-Learning-algorithms-such-as-Random-Forest-Decision-tree.png",
+    "Description": "Building responsive full-stack applications.",
+    "Features": [
+      "Custom Frontend Architecture (React / Next.js)",
+      "Scalable RESTful & GraphQL APIs",
+      "Tailwind CSS & Responsive Design",
+      "Database Design & Integration (MySQL, MongoDB)"
+    ],
+    "Framework": [
+      "React",
+      "Next.js",
+      "Node.js",
+      "Express.js"
+    ]
   },
   {
     "id": 2,
     "title": "Machine Learning",
     "icon": "PenTool",
-    "iconColor": "text-yellow-400"
+    "iconColor": "text-yellow-400",
+    "img": "https://i.ibb.co.com/Kz00mVH8/Researched-and-implemented-various-Machine-Learning-algorithms-such-as-Random-Forest-Decision-tree.png",
+    "Description": "Building responsive full-stack applications.",
+    "Features": [
+      "Data Preprocessing",
+      "Model Training",
+      "Model Evaluation",
+      "Deployment"
+    ],
+    "Framework": [
+      "TensorFlow",
+      "PyTorch",
+      "Scikit-learn",
+      "Keras"
+    ]
   },
   {
     "id": 3,
     "title": "AI & Deep Learning",
     "icon": "Smartphone",
-    "iconColor": "text-blue-400"
+    "iconColor": "text-blue-400",
+    "img": "https://i.ibb.co.com/Kz00mVH8/Researched-and-implemented-various-Machine-Learning-algorithms-such-as-Random-Forest-Decision-tree.png",
+    "Description": "Building responsive full-stack applications.",
+    "Features": [
+      "Neural Networks",
+      "Computer Vision",
+      "Natural Language Processing",
+      "Reinforcement Learning"
+    ],
+    "Framework": [
+      "TensorFlow",
+      "PyTorch",
+      "Scikit-learn",
+      "Keras"
+    ]
   },
   {
     "id": 4,
     "title": "Research & Implement",
     "icon": "LineChart",
-    "iconColor": "text-purple-400"
+    "iconColor": "text-purple-400",
+    "img": "https://i.ibb.co.com/Kz00mVH8/Researched-and-implemented-various-Machine-Learning-algorithms-such-as-Random-Forest-Decision-tree.png",
+    "Description": "Building responsive full-stack applications.",
+    "Features": [
+      "Literature Review",
+      "Experimentation",
+      "Data Analysis",
+      "Implementation"
+    ],
+    "Framework": [
+      "TensorFlow",
+      "PyTorch",
+      "Scikit-learn",
+      "Keras",
+      "Kaggle"
+    ]
   }
 ]
