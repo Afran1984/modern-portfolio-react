@@ -52,7 +52,9 @@ const Resharge = () => {
                     <span>{items.pname}</span>
                     </div>
 
-                    <h2 className="mt-4 text-white text-2xl md:text-3xl montenegrin leading-snug tracking-tight hover:text-blue-400 transition-colors duration-200">{items.description}</h2>
+                    <p className="text-gray-400 leading-relaxed text-base md:text-lg mt-4">
+                        {items.description}
+                    </p>
                 </div>
                 </div>
             ))}
