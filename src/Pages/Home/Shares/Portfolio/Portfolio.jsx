@@ -17,7 +17,7 @@ const Portfolio = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() =>{
-    axios.get('project.json')
+    axios.get('http://localhost:5000/project')
     .then(res => {
       const data = res.data;
       setProject(data);

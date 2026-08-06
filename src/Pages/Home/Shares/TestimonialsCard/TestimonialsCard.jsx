@@ -10,7 +10,7 @@ const TestimonialsCard = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        axios.get('testimonials.json')
+        axios.get('http://localhost:5000/testimonials')
         .then((res) => {
             const allData = res.data;
             const updateLatestData = allData.slice(-4).reverse();

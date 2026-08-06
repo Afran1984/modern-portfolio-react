@@ -18,7 +18,7 @@ export default function Service() {
   const [selectedService, setSelectedService] = useState(null);
 
   useEffect(() => {
-    axios.get('/service.json')
+    axios.get('http://localhost:5000/services')
       .then((response) => {
         setServices(response.data);
         setLoading(false);

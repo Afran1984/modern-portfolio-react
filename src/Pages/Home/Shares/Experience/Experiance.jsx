@@ -16,7 +16,7 @@ const Experiance = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios.get('/experiance.json') 
+    axios.get('http://localhost:5000/experiance') 
     .then (res => {
         const data = res.data;
         setItems(data);
