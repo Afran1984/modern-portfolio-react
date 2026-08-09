@@ -9,6 +9,7 @@ const TestimonialsCard = () => {
     const [loading, setLoading] = useState(true);
     const navigate = useNavigate();
 
+    // Api call & data Loading
     useEffect(() => {
         axios.get('http://localhost:5000/testimonials')
         .then((res) => {
@@ -22,6 +23,9 @@ const TestimonialsCard = () => {
             setLoading(false);
         })
      }, []);
+
+
+    //  Navigate to Other Page
      const handleNavigation = () => {
         navigate('/testimonialsform');
       }
@@ -56,8 +60,7 @@ const TestimonialsCard = () => {
             <div className="relative shrink-0">
               <div className="w-24 h-24 md:w-28 md:h-28 rounded-full border-4 border-amber-400 p-1 flex items-center justify-center">
                 <img
-                  src={item.avatar}
-                  alt={item.name}
+                  src={item?.avatar || 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=80'}
                   className="w-full h-full rounded-full object-cover"
                 />
               </div>
@@ -66,13 +69,19 @@ const TestimonialsCard = () => {
             {/* Content Details */}
             <div className="flex flex-col justify-center">
               <p className="text-gray-400 text-xs md:text-sm leading-relaxed mb-4">
-                {item.quote}
+                {item?.quote ? (
+                  item.quote
+                ) : (
+                  <span className="text-red-400">
+                    Server is not working or quote is unavailable!
+                  </span>
+                )}
               </p>
               <h3 className="text-white text-base md:text-lg font-bold">
-                {item.name}
+                {item?.name ? item.name : <span className="text-red-400">No read Name</span>}
               </h3>
               <p className="text-gray-500 text-xs md:text-sm font-medium mt-0.5">
-                {item.role}
+                {item?.role ? item.role : <span className="text-red-400">Customer</span>}
               </p>
             </div>
           </div>

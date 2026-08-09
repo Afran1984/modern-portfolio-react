@@ -21,21 +21,28 @@ export default function TestimonialsForm() {
     }));
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-    setLoading(true);
+  // form submit handler & axios post request
 
-    try {
-      
-      console.log('Submitted Testimonial:', formData);
-      setSubmitted(true);
-      setFormData({ name: '', role: '', quote: '' }); // Reset Form
-    } catch (error) {
-      console.error('Error submitting testimonial:', error);
-    } finally {
-      setLoading(false);
-    }
-  };
+    const handleSubmit = async (e) => {
+      e.preventDefault();
+      setLoading(true);
+
+      try {
+        // Axios request-e second parameter e direct JavaScript Object pathaben
+        const response = await axios.post('http://localhost:5000/testimonials', formData);
+
+        // Axios response success kina check kora (200 or 201 status)
+        if (response.status === 200 || response.status === 201) {
+          console.log('Submitted Testimonial:', response.data);
+          setSubmitted(true);
+          setFormData({ name: '', role: '', quote: '' }); // Reset Form
+        }
+      } catch (error) {
+        console.error('Error submitting testimonial:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
 
   return (
     <section className="bg-[#212529] min-h-screen text-gray-200 py-16 px-4 flex items-center justify-center">
