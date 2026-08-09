@@ -84,7 +84,8 @@ const About = () => {
                 {/* Action Button */}
                 <div className="pt-4">
                     <a
-                    href="#download-cv"
+                    href="https://docs.google.com/document/d/1qIol3FwZZEWv-XQJcsTq1yXOib_5XgGey5qpYOHLMBQ/export?format=pdf"
+                    download="Abdur_Razzak_Jim_CV.pdf"
                     className="inline-block bg-[#E50914] hover:bg-red-700 text-white montenegrin px-8 py-3 rounded-lg shadow-lg transition duration-300"
                     >
                     Download CV
