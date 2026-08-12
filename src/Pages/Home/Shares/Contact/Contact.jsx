@@ -69,55 +69,58 @@ const Contact = () => {
         </div>
 
        {/* Right Side: Contact Form */}
-        <div className="bg-[#1a1d26] p-8 rounded-xl shadow-xl border border-gray-800">
-          <form ref={form} onSubmit={sendEmail} className="space-y-4">
-            <div>
-              <label className="block text-sm text-gray-400 mb-1">Your Name</label>
-              <input
-                type="text"
-                name="user_name"
-                required
-                placeholder="John Doe"
-                className="w-full bg-[#111319] text-white border border-gray-700 rounded-lg p-3 focus:outline-none focus:border-red-500"
-              />
-            </div>
+        <div>
+          <p className='m-2'>I am always open to discussing, study help & Available Freelance </p>
+          <div className="bg-[#1a1d26] p-8 rounded-xl shadow-xl border border-gray-800">
+            <form ref={form} onSubmit={sendEmail} className="space-y-4">
+              <div>
+                <label className="block text-sm text-gray-400 mb-1">Your Name</label>
+                <input
+                  type="text"
+                  name="user_name"
+                  required
+                  placeholder="John Doe"
+                  className="w-full bg-[#111319] text-white border border-gray-700 rounded-lg p-3 focus:outline-none focus:border-red-500"
+                />
+              </div>
 
-            <div>
-              <label className="block text-sm text-gray-400 mb-1">Your Email</label>
-              <input
-                type="email"
-                name="user_email"
-                required
-                placeholder="john@example.com"
-                className="w-full bg-[#111319] text-white border border-gray-700 rounded-lg p-3 focus:outline-none focus:border-red-500"
-              />
-            </div>
+              <div>
+                <label className="block text-sm text-gray-400 mb-1">Your Email</label>
+                <input
+                  type="email"
+                  name="user_email"
+                  required
+                  placeholder="john@example.com"
+                  className="w-full bg-[#111319] text-white border border-gray-700 rounded-lg p-3 focus:outline-none focus:border-red-500"
+                />
+              </div>
 
-            <div>
-              <label className="block text-sm text-gray-400 mb-1">Message</label>
-              <textarea
-                name="message"
-                rows="4"
-                required
-                placeholder="Write your message here..."
-                className="w-full bg-[#111319] text-white border border-gray-700 rounded-lg p-3 focus:outline-none focus:border-red-500"
-              ></textarea>
-            </div>
+              <div>
+                <label className="block text-sm text-gray-400 mb-1">Message</label>
+                <textarea
+                  name="message"
+                  rows="4"
+                  required
+                  placeholder="Write your message here..."
+                  className="w-full bg-[#111319] text-white border border-gray-700 rounded-lg p-3 focus:outline-none focus:border-red-500"
+                ></textarea>
+              </div>
 
-            <button
-              type="submit"
-              disabled={loading}
-              className="w-full bg-[#E50914] hover:bg-red-700 text-white font-semibold py-3 rounded-lg transition duration-300 disabled:opacity-50"
-            >
-              {loading ? "Sending..." : "Send Message"}
-            </button>
+              <button
+                type="submit"
+                disabled={loading}
+                className="w-full bg-[#E50914] hover:bg-red-700 text-white font-semibold py-3 rounded-lg transition duration-300 disabled:opacity-50"
+              >
+                {loading ? "Sending..." : "Send Message"}
+              </button>
 
-            {status && (
-              <p className="text-center text-sm font-medium mt-3 text-gray-300">
-                {status}
-              </p>
-            )}
-          </form>
+              {status && (
+                <p className="text-center text-sm font-medium mt-3 text-gray-300">
+                  {status}
+                </p>
+              )}
+            </form>
+          </div>
         </div>
 
       </div>

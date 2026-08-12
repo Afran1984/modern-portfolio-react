@@ -43,7 +43,7 @@ const Portfolio = () => {
           <h1 className='text-2xl montenegrin'>Projects</h1>
           <IoIosArrowRoundForward style={{ height: '30px', width: '100px' }} />
         </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-2 mt-3 mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-2 mt-10">
         
         {project.map((items, index) => (
           <div 
@@ -60,8 +60,10 @@ const Portfolio = () => {
             </div>
 
             <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/70 to-transparent p-6 flex flex-col justify-end opacity-0 group-hover:opacity-100 transition-all duration-500 ease-in-out transform translate-y-4 group-hover:translate-y-0">
+
+              <button className='text-center text-red-600'>Learn</button>
               
-              <h2 className="text-2xl montenegrin text-white mb-1">
+              <h2 className="text-2xl montenegrin text-orange-400 mb-1">
                 {items.name}
               </h2>
               
