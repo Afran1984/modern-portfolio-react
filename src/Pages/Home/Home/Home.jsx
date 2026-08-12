@@ -9,12 +9,18 @@ import Contact from '../Shares/Contact/Contact'
 import SkillsEducation from '../Shares/SkillsEducation/SkillsEducation'
 import CustomCarsor from '@/components/CustomCarsor/CustomCarsor'
 import TestimonialsCard from '../Shares/TestimonialsCard/TestimonialsCard'
+import AdModal from '../AdModal/AdModal'
+
 
 
 
 const Home = () => {
   return (
     <>
+    <div className="relative min-h-screen">
+      <AdModal></AdModal>
+
+      
       <Banner></Banner>
         <Service></Service>
         <Portfolio></Portfolio>
@@ -25,7 +31,7 @@ const Home = () => {
         <TestimonialsCard></TestimonialsCard>
         <Contact></Contact>
         <CustomCarsor></CustomCarsor>
-      
+      </div>
     </>
   )
 }
