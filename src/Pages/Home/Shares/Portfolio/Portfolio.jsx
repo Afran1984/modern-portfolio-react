@@ -11,7 +11,7 @@ const Portfolio = () => {
   
 
   useEffect(() =>{
-    axios.get('http://localhost:5000/project')
+    axios.get('https://server-modern-portfolio-react.onrender.com/project')
     .then(res => {
       const data = res.data;
       setProject(data);

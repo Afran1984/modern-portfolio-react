@@ -11,7 +11,7 @@ const TestimonialsCard = () => {
 
     // Api call & data Loading
     useEffect(() => {
-        axios.get('http://localhost:5000/testimonials')
+        axios.get('https://server-modern-portfolio-react.onrender.com/testimonials')
         .then((res) => {
             const allData = res.data;
             const updateLatestData = allData.slice(-4).reverse();

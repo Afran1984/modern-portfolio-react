@@ -33,7 +33,7 @@ const Contact = () => {
   };
 
   return (
-   <div className="min-h-screen montenegrin bg-[#111319] text-white flex items-center  justify-center">
+   <div className="min-h-screen montenegrin mt-5 bg-[#111319] text-white flex items-center  justify-center">
       <div className="max-w-4xl w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-start mt-10">
         
         {/* Left Side: Contact Info */}

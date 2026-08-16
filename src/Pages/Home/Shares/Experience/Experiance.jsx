@@ -16,7 +16,7 @@ const Experiance = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/experiance') 
+    axios.get('https://server-modern-portfolio-react.onrender.com/experiance') 
     .then (res => {
         const data = res.data;
         setItems(data);

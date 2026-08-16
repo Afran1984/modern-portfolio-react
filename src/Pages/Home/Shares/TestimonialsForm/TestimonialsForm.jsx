@@ -29,7 +29,7 @@ export default function TestimonialsForm() {
 
       try {
         // Axios request-e second parameter e direct JavaScript Object pathaben
-        const response = await axios.post('http://localhost:5000/testimonials', formData);
+        const response = await axios.post('https://server-modern-portfolio-react.onrender.com/testimonials', formData);
 
         // Axios response success kina check kora (200 or 201 status)
         if (response.status === 200 || response.status === 201) {

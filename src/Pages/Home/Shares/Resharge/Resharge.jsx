@@ -8,7 +8,7 @@ const Resharge = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        axios.get('http://localhost:5000/resharce')
+        axios.get('https://server-modern-portfolio-react.onrender.com/resharce')
         .then(res => {
             const data = res.data;
             setResearch(data);

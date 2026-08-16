@@ -17,7 +17,7 @@ export default function Service() {
   const [selectedService, setSelectedService] = useState(null);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/services')
+    axios.get('https://server-modern-portfolio-react.onrender.com/services')
       .then((response) => {
         setServices(response.data);
         setLoading(false);
