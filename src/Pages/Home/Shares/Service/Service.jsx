@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Monitor, PenTool, Smartphone, LineChart, MoveRight } from 'lucide-react';
 import { IoIosArrowRoundForward } from 'react-icons/io';
-import { useNavigate } from 'react-router';
 import ServiceDetails from '../ServiceDetails/ServiceDetails';
 
 const iconMap = {

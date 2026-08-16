@@ -4,12 +4,12 @@ import { MoveLeft, CheckCircle2, Code2 } from 'lucide-react';
 export default function ServiceDetails({ service, onClose }) {
   // console.log(service.Link_Stor[0]);
   const links = service.Link_Stor[0];
-  console.log('Links is ', links);
+  // console.log('Links is ', links);
 
   if (!service) return null;
 
   return (
-    <div className="bg-[#131722] border border-gray-800 rounded-2xl p-6 md:p-10 max-w-4xl mx-auto my-8 relative shadow-2xl overflow-hidden">
+    <div className="bg-[#131722] border montenegrin border-gray-800 rounded-2xl p-6 md:p-10 max-w-4xl mx-auto my-8 relative shadow-2xl overflow-hidden">
       {/* Back Button */}
       <button
         onClick={onClose}
