@@ -35,7 +35,7 @@ const Portfolio = () => {
   }
   return (
     <section >
-      {showDetails?(<PortfolioDetails project={showDetails} onClose={() => setShowDetails(null)} />) :(
+      {showDetails?(<PortfolioDetails project={showDetails} loading={loading} onClose={() => setShowDetails(null)} />) :(
         <>
         <div className='bg-[#9A918C] px-4 py-12'>
         <div className='flex items-center mt-10'>

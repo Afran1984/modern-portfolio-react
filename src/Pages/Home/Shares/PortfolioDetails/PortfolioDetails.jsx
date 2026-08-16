@@ -1,9 +1,19 @@
 import { CheckCircle2, Code2, MoveLeft } from 'lucide-react';
 import React from 'react'
 
-const PortfolioDetails = ({project, onClose}) => {
+const PortfolioDetails = ({project, onClose, loading}) => {
     console.log('Project is Finding', project);
     if(!project) return(null);
+
+
+    if(loading) {
+    return (
+      <div className='min-h-screen bg-gray-900 flex flex-col items-center justify-center gap-4'>
+        <div className='w-12 h-12 border-4 border-gray-700 border-t-orange-500 rounded-full animate-spin'></div>
+        <p className='text-gray-400 montenegrin tracking-wide animate-pulse'>Loading</p>
+      </div>
+    )
+  }
   return (
     <div className="bg-[#131722] border border-gray-800 rounded-2xl p-6 md:p-10 max-w-4xl mx-auto my-8 relative shadow-2xl overflow-hidden montenegrin">
           {/* Back Button */}

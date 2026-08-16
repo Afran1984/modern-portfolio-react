@@ -59,7 +59,7 @@ const AdModal = () => {
 
           <div className="pt-4">
             <a
-              href="https://www.facebook.com/share/v/1CzjeTMZNe/"
+              href="/contact"
               target="_blank"
               rel="noreferrer"
               className="inline-block bg-white text-black font-bold px-8 py-3 rounded-xl hover:bg-gray-200 transition-colors"

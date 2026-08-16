@@ -1,12 +1,22 @@
 import React from 'react';
 import { MoveLeft, CheckCircle2, Code2 } from 'lucide-react';
 
-export default function ServiceDetails({ service, onClose }) {
+export default function ServiceDetails({ service, onClose, loading }) {
   // console.log(service.Link_Stor[0]);
   const links = service.Link_Stor[0];
   // console.log('Links is ', links);
 
   if (!service) return null;
+
+
+  if(loading) {
+    return (
+      <div className='min-h-screen bg-gray-900 flex flex-col items-center justify-center gap-4'>
+        <div className='w-12 h-12 border-4 border-gray-700 border-t-orange-500 rounded-full animate-spin'></div>
+        <p className='text-gray-400 montenegrin tracking-wide animate-pulse'>Loading</p>
+      </div>
+    )
+  }
 
   return (
     <div className="bg-[#131722] border montenegrin border-gray-800 rounded-2xl p-6 md:p-10 max-w-4xl mx-auto my-8 relative shadow-2xl overflow-hidden">

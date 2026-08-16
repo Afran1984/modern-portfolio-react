@@ -40,7 +40,7 @@ export default function Service() {
 
   return (
     <section className="bg-[#0b0f17] min-h-screen montenegrin text-gray-300 p-8">
-        { selectedService ? (<ServiceDetails service={selectedService} onClose={() => setSelectedService(null)} />) : (
+        { selectedService ? (<ServiceDetails service={selectedService} loading={loading} onClose={() => setSelectedService(null)} />) : (
           <> 
               <div className='flex items-center mt-10'>
                   <h1 className='text-2xl montenegrin'>Service</h1>
