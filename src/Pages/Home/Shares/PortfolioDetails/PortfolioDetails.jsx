@@ -48,6 +48,24 @@ const PortfolioDetails = ({project, onClose}) => {
           <p className="text-gray-400 leading-relaxed text-base md:text-lg mb-8">
              {project.Technologies}
           </p>
+          {/* link */}
+            <div className="mb-8">
+                    <h3 className="text-xl font-semibold text-white mb-4 flex items-center gap-2">
+                      <CheckCircle2 className="w-5 h-5 text-orange-500" />
+                      Show Others Details
+                    </h3>
+                    <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        <li
+                            className="bg-[#181D2B] border border-gray-800/80 rounded-lg p-3 text-gray-300 text-sm flex items-center gap-2"
+                        >
+                            <span className="w-1.5 h-1.5 rounded-full bg-orange-500"></span>
+                            <span className="capitalize font-medium text-white">Github:</span>
+                            <a href={project.github} target="_blank" rel="noopener noreferrer" className="hover:underline text-orange-400 truncate">
+                            {project.github}
+                            </a>
+                        </li>
+                    </ul>
+            </div>
         </div>
   )
 }
