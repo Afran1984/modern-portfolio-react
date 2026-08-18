@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { NavLink } from 'react-router'
 
 const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
     const navItems = [
         { name: 'Home', path: '/home' },
         { name: 'Service', path: '/service' },
@@ -16,9 +18,36 @@ const Navbar = () => {
         <div >
             <h3>Abdur <span className='text-orange-600'>Razzak</span></h3>
         </div>
-        <div>
+        {/* mobile Responsive */}
+        <div className='md:hidden'>
+            <button 
+            onClick={() => setIsOpen(!isOpen)}
+            className='text-white focus:outline-none p-2'
+            aria-label="Toggle Menu"
+            >
+            <svg className='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                {isOpen ? (
+                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M6 18L18 6M6 6l12 12' />
+                ) : (
+                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M4 6h16M4 12h16M4 18h16' />
+                )}
+            </svg>
+            </button>
+        </div>
+
+        {/* Navigation Link Mobile & desktop */}
+        <div className={`
+        ${isOpen ? 'flex' : 'hidden'} 
+        md:flex flex-col md:flex-row absolute md:static top-full left-0 right-0 
+        bg-gray-600 md:bg-transparent p-4 md:p-0 items-center gap-2 md:gap-0 shadow-lg md:shadow-none
+      `}>
            {navItems.map((item, index) => (
-              <NavLink to={item.path} key={index}>
+              <NavLink 
+                to={item.path} 
+                key={index}
+                onClick={() => setIsOpen(false)}
+                >
+                    
                 {({isActive}) => (
                 <button className='group relative mr-5 h-11 overflow-hidden px-5 py-2 font-medium transition-all duration-300 '>
                 <div className='flex flex-col transform transition-transform duration-300 ease-in-out group-hover:-translate-y-7'>
