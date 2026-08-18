@@ -46,7 +46,7 @@ const Contact = () => {
       <div className="max-w-4xl w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-start mt-10">
         
         {/* Left Side: Contact Info */}
-        <div className="space-y-6">
+        <div className="space-y-6 p-4">
           <h1 className="text-4xl font-extrabold tracking-tight">
             Get In Touch
           </h1>
